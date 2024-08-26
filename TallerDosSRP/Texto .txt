@@ -1,0 +1,18 @@
+Identifica las violaciones del SRP en la clase Factura: ¿Por qué esta clase tiene más de una responsabilidad?
+
+//La clase facture esta violando el Principio de Responsabilidad Única ya qeu este tiene muchos metodos que deberian estar
+divididas en mas clases estos metodos en a clase factura => guardarFactura() generarReporteFacturas() enviarFacturaDian() enviarEmailFactura()
+
+ Refactoriza el código: Divide la clase Factura y Usuario en múltiples clases para cumplir con el SRP. Propón nombres adecuados para las nuevas clases y explica la razon de la separación
+
+Cada Clase tiene que tener una unica resposibilidad clara y definida
+
+class EnviarFactura: Su responsabilidad es enviar una factura a la dian
+
+class Factura: su responsibilidad es almacenamiento de todas las facturas 
+
+class EnviarEmail: Su responsabilidad es enviarle un email a un cliente de la factura guardada y gerada
+
+class Cliente: Su responsabilidad es el almacenamiento de todos los clients
+
+class ReporteFactura: Su responsabilidad es generar un reporte de todas las facturas del mes
