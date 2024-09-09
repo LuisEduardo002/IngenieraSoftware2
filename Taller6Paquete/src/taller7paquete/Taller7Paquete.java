@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author karen
+ * @author lolor
  */
 public class Taller7Paquete {
 

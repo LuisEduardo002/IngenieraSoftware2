@@ -6,7 +6,7 @@ package taller7paquete;
 
 /**
  *
- * @author karen
+ * @author lolor
  */
 public interface IPaquetePeligroso {
     void calcularCostoPaquetePeligroso(double peso, boolean etiquetaPeligro, boolean embalajeEspecial);

@@ -6,7 +6,7 @@ package taller7paquete;
 
 /**
  *
- * @author karen
+ * @author lolor
  */
 public  abstract class  PaquetePeso {
     private double peso;

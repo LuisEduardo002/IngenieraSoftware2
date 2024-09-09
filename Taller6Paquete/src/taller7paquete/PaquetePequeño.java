@@ -6,7 +6,7 @@ package taller7paquete;
 
 /**
  *
- * @author karen
+ * @author lolor
  */
 public class PaquetePequeño extends PaquetePeso implements IPaquetePequeño{
 

@@ -6,7 +6,7 @@ package taller7paquete;
 
 /**
  *
- * @author karen
+ * @author lolor
  */
 public class PaquetePeligroso  extends PaquetePeso implements IPaquetePeligroso{
     private double dimensiones;
